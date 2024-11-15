@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mess</title>
+</head>
+<body>
+    <div class="container" >
+        <label class="heading" > Calculator</label>
+        <div class="text"> 
+            <input type="text" name="number" id="number" readonly >
+        </div>
+        <div class="grid-container ">
+           
+            <button class="grid-item plus">7</button>
+            <button class="grid-item minus">8</button>
+            <button class="grid-item multiply">9</button>
+            <button class="grid-item divide">*</button>
+        
+        
+            <button class="grid-item ">4</button>
+            <button class="grid-item ">5</button>
+            <button class="grid-item ">6</button>
+            <button class="grid-item ">-</button>
+        
+            <button class="grid-item ">1</button>
+            <button class="grid-item ">2</button>
+            <button class="grid-item ">3</button>
+            <button class="grid-item ">+</button>
+
+            <button class="grid-item ">0</button>
+            <button class="grid-item ">.</button>
+            <button class="grid-item equal" >=</button>
+            <button class="grid-item ">/</button>
+                        
+        </div>
+        
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+<style>
+    body{
+        background-image: url(./sad.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .container{
+        width:20%; 
+        background-color: rgb(103, 86, 62);
+        text-align: center;
+        margin-left: 40%;
+        margin-top: 10%;
+        border-radius: 15px;
+        height: 430px;
+        
+    }
+    label{
+        color: antiquewhite;
+        height: 40px;
+        width: 150%; 
+        font-size: xx-large; 
+        text-align: center;
+    }
+    .text{
+    margin-left: 5%;
+    width: 90%;
+    }
+    .grid-container{
+        background-color: rgb(195, 167, 136);
+        width: 90%;
+        margin-left: 5%;
+        
+    }
+    button{
+        height: 60px;
+        width: 20%;
+        margin:1% ;
+        margin-bottom: 3%;
+    }
+    input{
+        margin-top: 3%;
+        height: 50px;
+        width: 95%;
+        margin-bottom: 6%;
+    }
+</style>
